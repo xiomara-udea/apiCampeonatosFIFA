@@ -11,6 +11,8 @@ public interface ICampeonatoServicio {
 
     public Campeonato obtener(int id);
 
+    public List<Campeonato> buscar(String nombre);
+
     public Campeonato agregar(Campeonato campeonato);
 
     public Campeonato modificar(Campeonato campeonato);
